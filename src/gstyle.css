@@ -1,0 +1,134 @@
+
+
+.out{
+  background-image: url("main.jpg");
+  background-repeat: no-repeat;
+  background-size:1920px 974px;
+  width: 1912px;
+  height: 955px;
+}
+
+
+.outer{
+  padding-top: 57px;
+  width:1200px;
+  height: 850px;
+  margin:0 auto;
+}
+
+
+.board{
+  margin:0 auto;
+  height:850px;
+  width:850px;
+  float: left;
+  text-align: center;
+}
+
+.left{
+  float:left;
+  height:85px;
+  width:85px;
+
+}
+
+
+.last{
+  height:85px;
+  width:85px;
+  float: right;
+}
+
+
+.btn {
+  background-color: #b36412;
+  border-radius: 20px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  width: 180px;
+  height: 90px;
+}
+
+.btn:hover {
+  opacity: 0.6
+}
+
+.btn:focus {
+  outline:0;
+}
+
+h2{
+  color: #ece6df;
+  text-align: center;
+  font-size: 30px;
+  font-family: Comic Sans MS;
+}
+
+
+
+
+.x{
+  float: right;
+  margin-left: 40px;
+  width: 300px;
+  height: 850px;
+}
+
+
+.cmnt{
+  border-style: solid;
+  border-color: rgba(39, 147, 43, 0);
+  height: 190px;
+  text-align: center;
+
+}
+.dice{
+  height: 150px;
+  text-align: center;
+}
+
+.play{
+  height: 100px;
+  text-align: center;
+}
+
+.buttons{
+  height: 400px;
+  text-align: center;
+}
+
+
+
+.inp {
+  border-color: rgb(12, 25, 145);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+	height: 30px;
+	width: 200px;
+  text-align: center;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: thick;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.inp2{
+  border-color: rgb(20, 99, 13);
+}
+
+input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: rgba(246, 236, 249, 0.59);
+}
